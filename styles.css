@@ -1,0 +1,786 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.five_stars h1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+
+}
+
+
+.hobby_3
+{
+
+position: relative;
+text-align: center;
+
+
+}
+
+
+.footer {
+
+    
+    width: 100%;
+    padding: 50px 3px;
+    background: #333;
+    color: #efefef;
+    display: flex;
+position: relative;
+
+  }
+  .social-icons{
+    margin-top: 30px;
+}
+.col-3 i {
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+    left: 255px;
+}
+
+  .footer div {
+    text-align: center;
+    position: relative;
+left: 350px;
+      }
+    
+      .col-2{
+        flex-grow: 2; 
+        }
+        .col-2 h3{
+            position: relative;
+            left: 50px;
+            }
+
+
+
+
+.footer div h3{
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-bottom: 30px;
+      }
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    cursor:pointer ;
+    font-size: 15px;
+    position: relative;
+    left: 50px;
+}
+
+.col-2 input{
+    position: relative;
+    left: -40px;
+}
+
+      .col-1 a{
+        display: block;
+        color: #efefef!important;
+margin-bottom: 10px;
+
+      }
+
+      .col-1 h3{
+     position: relative;
+     left: -250px;
+      }
+      .col-1 a{
+        position: relative;
+        left: -250px;
+         }
+   
+         .col-3 h3{
+            position: relative;
+            left: 250px;
+             }
+             .col-3 p{
+                position: relative;
+                left: 250px;
+                 }
+      form input{
+        width: 400px;
+        height: 45px;
+        border-radius: 4px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        outline: none;
+        border: none;
+      }
+
+
+
+
+      .hero_1{
+        border-image: linear-gradient(#3c93f6, #0c75ff) 30;
+border-width: 2px;
+border-style: solid;}
+
+
+
+.uber {
+    text-align: center;
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+    align-items: center;
+    position: relative;
+right: -500px;
+font-style: italic;
+  }
+
+
+  .photo_3 img { 
+    max-width: 500px;
+    height: auto;
+  
+    position: relative;
+    left: 150px;
+
+
+
+} 
+
+.navbar-brand
+{color:#111!important;}
+
+
+#nav-bar {
+
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+.navbar-brand img {
+    height: 65px;
+padding-top:7px ;
+    padding-left: 30px;
+
+}
+
+.navbar-nav li{
+    
+    padding: 0 10px;
+}
+.navbar-nav li a {
+    
+   float: right;
+   text-align: left;
+}
+
+#nav-bar ul li a:hover{
+    color:007bff!important;
+
+}
+.navbar {
+    background: #ffffff ;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+
+.nav-link
+{
+    color: #555!important;
+    font-weight:600;
+    font-size: 16px;
+}
+.navbar-nav {
+    
+    position: relative;
+    right: -800px;
+}
+.one img{
+    height: 25%;
+    width: auto;
+    margin: 10px;
+    border-radius: 5px;
+}
+.one h1{
+    height: 25%;
+    font-size: 16px;
+ padding: 10px;
+}
+
+
+/*-----front page slider ---*/
+#slider{
+
+width: 100%;
+}
+
+.carousel-caption
+{
+
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+.carousel-caption h5
+{
+
+   color: red;
+   font-size: 42px;
+   float: left;
+}
+.carousel-caption p
+{
+
+   color: red;
+   font-size: 42px;
+   float: left;
+}
+
+/*-------- about section ------*/
+
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+#about .btn
+{
+   margin-top: 20px;
+   margin-bottom: 30px;
+
+}
+
+.about-content {
+    padding-top: 20px; 
+}
+.skills-bar p {
+    margin-bottom: 30x;
+    font-weight: 600px;
+}
+.progress-bar
+{
+    border-radius: 16px;
+}
+
+.progress
+{
+    border-radius: 16px !important;
+    margin-bottom: 20px;
+}
+
+#slider img
+{
+height: 70%;
+width: 100%;
+object-fit:cover;
+object-position:50% 50%;
+}
+
+/*---------services -----------*/
+
+.container-3{
+
+    display: inline-block;
+
+}
+#services
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(pics/hi.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+#services h1 {
+    text-align: center;
+    color: #efefef !important;
+ padding-bottom: 10px;
+}
+#services h1::after {
+    content: '';
+    background:#efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+#services img {
+    height: 100px;
+    width: auto;
+    color:#efefef;
+}
+.homo
+{
+    height: 50px;
+    width: auto;
+}
+#services #myImage{
+    width: 50px;
+    height: auto;
+    top: 15px;
+    position: relative;
+}
+
+#services .no{
+
+    top: 33px;
+    position: relative;
+}
+#services .yes{
+
+    top: 33px;
+    position: relative;
+}
+#services #myImage-2{
+    width: 80px;
+    padding-bottom: 24px;
+    height: auto;
+    top: 10px;
+    position: relative;
+}
+#services #myImage-3{
+    width: 79px;
+    padding-bottom: 26px;
+    height: auto;
+    top: 10px;
+    position: relative;
+}
+#services #myImage-4{
+    width: 90px;
+    padding-bottom: 24px;
+    height: auto;
+    top: 10px;
+    position: relative;
+}
+#services .no-2{
+
+    top: 4px;
+    position: relative;
+}
+#services .yes-2{
+
+    top: 4px;
+    position: relative;
+}
+.services{
+    margin-top: 40px;
+}
+
+.services_page h1 {
+
+    align-items: center;
+    text-align: center;
+   
+    padding-top: 30px;
+    font-family: initial;
+}
+.services_page p {
+
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: emoji;
+}
+/*---------promo -----------*/
+
+#promo {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(pics/water.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 50px;
+    font-family: sans-serif;
+}
+
+#promo p {
+   
+    font-size: 38px;
+    padding-bottom: 15px;
+}
+#promo h5 {
+    padding: 1px;
+}
+
+ 
+/*---------price plan -----------*/
+
+
+ .services_2
+
+{
+  
+  width: 100%;
+  
+
+  position: relative;
+  padding: 15px;
+}
+
+
+.remodel_2
+
+{
+  
+  width: 100%;
+  color: rgb(0, 0, 0);
+
+  position: relative;
+  padding: 15px;
+}
+
+.services_2 h1
+
+{
+    color: black; 
+text-align: center;
+font-size: 50px;
+}
+
+.services_2 h5
+
+{
+    font-size: 25px;
+text-align: center;
+color: black; 
+}
+
+.repair_2 h1
+
+{
+    color: rgb(0, 0, 0);
+text-align: center;
+font-size: 50px;
+position: relative;
+}
+
+.repair_2 h5
+
+{
+    font-size: 25px;
+text-align: center;
+color: rgb(0, 0, 0);
+}
+
+.remodel_2 h1
+
+{
+    color: rgb(0, 0, 0);
+text-align: center;
+font-size: 50px;
+}
+
+.remodel_2 h5
+
+{
+    font-size: 25px;
+text-align: center;
+color: rgb(0, 0, 0);
+}
+
+
+
+.repair_2{
+  
+    width: 100%;
+    background:white;
+   
+    position: relative;
+    padding: 15px;
+  }
+
+
+
+.servie_area h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 75px;
+    margin: 15px;
+
+    text-decoration: underline 5px;
+}
+.servie_area ul  {
+    font-size: 75px;
+   
+  
+}
+.servie_area li  {
+    font-size: 20px;
+  
+}
+
+
+
+
+ul {
+    list-style-type: none;
+
+
+
+
+}
+
+
+li {
+    font-size: 12px;
+    display:table-cell;
+    padding: 15px;
+    font-weight: bold;
+}
+.prices {
+    padding: 40px 0px;
+    background: efefef;
+    display: inline-block;
+}
+.single-price{
+    margin: 10px auto;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color:#fff;
+    transition: 0.5s;
+    list-style-type: none;
+    display: Inline-Block;
+
+ .duh{
+        margin: 1000px 0px;
+        background: efefef;
+        text-size: 150px;
+    
+    } }
+.single-price:hover{
+    box-shadow: 0 2px 20px #333;
+}
+.price-head{
+    background-color: black;
+    display: inline;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100px;
+    list-style-type: none;
+    display: Inline-Block;
+}
+.price-head h2 {
+color: #fff;
+font-size: 15px;
+font-weight: bold;
+margin-bottom: 5px;
+padding: 5px;
+text-transform: uppercase;
+}
+.price-head p {
+font-size: 15px;
+color: #ccc;
+font-weight: bold;
+line-height: 30px;
+
+}
+#price span {
+    font-size: 15px;
+
+}
+
+.price-content {
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 0 15px;
+    
+
+}
+.price-content ul li{
+   border-bottom: 1px solid #efefef;
+   padding: 15px 10px;
+   list-style: none;
+   display: Inline-Block;
+    
+}
+ul li:last-child{
+    border: none;
+}
+
+ #price .him {
+    max-width:8%;
+    height:auto;
+    position: relative;
+    left: -5px;
+    top: -1px;
+    color: green;
+
+}
+
+.price-button {
+    display: inline;
+    float: left;
+    padding: 10px 15px 13px;
+    text-align: center;
+    width: 100%;
+}
+
+.buy-btn {
+    background-color: #2196f3;
+    border-radius: 3px; 
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px 50px;
+    transition: 0.5s;
+}
+
+.buy-btn:hover {
+    border-color: 1px solid #fff;
+    background-color: #3f51b5;
+}
+a 
+{
+    text-decoration: none!important;
+    color: #fff!important;
+}
+.col-md-3{
+    
+    border: 1px solid padding 5px aqua;
+    
+    
+  
+}
+
+.row .col-md-4{
+    
+  
+   
+    
+  
+}
+
+
+/* price points */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three columns of equal width */
+
+  .columnz {
+    display: inline-block;
+    position: relative;
+    width: 33.3%;
+    padding: 8px;
+    background-color:#04AA6D;
+    font-size: 15px;
+
+    
+  }
+  
+  /* Style the list */
+  .price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    display: inline-block;
+    position: relative;
+  }
+  
+  /* Add shadows on hover */
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+  
+  /* Pricing header */
+  .price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+  }
+  
+  /* List items */
+  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Grey list item */
+  .price .grey {
+    background-color: #eee;
+    font-size: 20px;
+  }
+  
+  /* The "Sign Up" button */
+  .button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Change the width of the three columns to 100%
+  (to stack horizontally on small screens) */
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+    }
+  }
+
+
+
+
+
+
+  
+  <!------ contact us --->
+
+
+
+
+
+
+  .uber  h1 {
+    font-size: 50px;
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    right: -500px;}
+
+  .contact-us h3 {
+    padding: 20px;
+    text-align: center;
+    font-style:initial;
+  }
+
+  .contact-us img {
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+    align-items: center;
+    position: relative;
+right: -500px;
+  }
+.yes-6 img {
+    width: 2px;
+    height: auto;
+}
+
+
